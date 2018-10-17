@@ -1,0 +1,40 @@
+%Csa 310K Centres
+C1 = [0.396,-0.154];
+C2 = [-0.183,0.621];
+C3 = [0.682, 0.157];
+
+%CsA 450K Centres pc1 VS 3
+C1 = [1.10, 0.365];
+C2 = [0.632, -0.435];
+C3 = [0.196, 0.605];
+C4 = [-0.863, 0.124];
+
+%CsA 510K Centres
+
+C1 = [-0.512, -0.315];
+C2 = [-0.842, 0.103];
+C3 = [0.202, 0.377];
+
+%450 CsA Pc1v 2
+%CORRECTED STATE NAMES BY COMPARING POPULATIONS & TBA TRAJS & CLUSTER PLACEMENT
+
+C4= [-0.905, -0.355]; x cg
+C3 = [0.202, 0.244];
+C2 = [0.621, -0.103]; x cg
+C1 = [1.04, -0.312];
+
+%310 dCsA
+
+C5 = [-0.273, -0.241]; %new state
+C6 = [1.96,0.242]; % possibly s3, 
+
+%450 dCsA
+
+C7 = [0.303,0.800]; %new state
+C8 = [0.677,-0.366]; % new
+
+%510 dCsA
+
+C9 = [ 0.3, 0.914];     %possibly corelates with C10 at 450 dCsA
+C10 = [ 1.04, -0.206];   %sim position to C11 at 450 dCsA
+C11 = [-0.725, -0.302];  % possibly correlates to s4 in 450 CsA
